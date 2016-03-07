@@ -6,6 +6,10 @@
     "Filip Ruzicka <filipruzicka@gmail.com>"
   ],
   "description": "Bare-bones resolution-independent infinite horizontal items scroller. Uses jquery.transit for smooth CSS transitions.",
+  "dependencies": {
+    "jquery": "*",
+    "jquery.transit": "~0.9.12"
+    },
   "moduleType": [],
   "license": "MIT",
   "ignore": [
