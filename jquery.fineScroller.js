@@ -1,3 +1,7 @@
+/*
+	jQuery infinite horizontal scroller plugin
+	please use freely.
+*/
 
 (function($, window) {
 	$.fn.fineScroller = function(options) {
