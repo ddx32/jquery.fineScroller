@@ -2,6 +2,7 @@
   "name": "jquery.fineScroller",
   "main": "jquery.fineScroller.js",
   "homepage": "https://github.com/ddx32/jquery.fineScroller",
+  "repo": "ddx32/jquery.fineScroller",
   "authors": [
     "Filip Ruzicka <filipruzicka@gmail.com>"
   ],
@@ -13,11 +14,9 @@
     },
   "moduleType": [],
   "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+  "keywords": [
+    "scroller",
+    "animation",
+    "carousel"
   ]
 }
