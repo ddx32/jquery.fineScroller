@@ -7,7 +7,8 @@
 	$.fn.fineScroller = function(options) {
 		var defaults = {
 			cycleTime : 1000,
-			duplicates: 0
+			duplicates: 0,
+			sliderItem: '.item'
 		}
 			
 		var options =  $.extend(defaults, options);
@@ -21,13 +22,13 @@
 				console.log('duped');
 			}
 
-			return container.find($('.item'));
+			return container.find($(options.sliderItem));
 		}
 
 		/* Moves the first item in collection after the last, after it is out of view. */
 		function swapDiv(container) {
-			var first = container.find($('.item:first-child'));
-			var last = container.find($('.item:last-child'));
+			var first = container.find($(options.sliderItem . ':first-child'));
+			var last = container.find($(options.sliderItem . ':last-child'));
 			first.insertAfter(last);
 		}
 
@@ -35,7 +36,7 @@
 		return this.each(function() {
 			var o = options;
 			var container = $(this);
-			var item = container.find($('.item'));
+			var item = container.find($(options.sliderItem));
 			var margin;
 			
 			var itemWidth;
