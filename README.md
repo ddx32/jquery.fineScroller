@@ -2,6 +2,10 @@
 Bare-bones size-independent infinite horizontal items scroller jQuery plugin. 
 Optionally uses [jquery.transit](https://github.com/rstacruz/jquery.transit) library (if loaded) to provide smooth CSS animation if supported by browser. Falls back to jQuery.animate().
 
+* shit's lightweight
+* adapts to your html and styles
+* as minimal and unopinionated as it gets
+
 ## Usage
 ```javascript
 $('.item-container').fineScroller();
