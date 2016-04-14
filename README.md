@@ -1,6 +1,6 @@
 # jquery.fineScroller
 Bare-bones size-independent infinite horizontal items scroller. 
-Automatically uses [jquery.transit](https://github.com/rstacruz/jquery.transit) library to provide accelerated CSS animation if supported by browser and library loaded. Gracefully falls back to jQuery.animate().
+Optionally uses [jquery.transit](https://github.com/rstacruz/jquery.transit) library (if loaded) to provide smooth CSS animation if supported by browser. Falls back to jQuery.animate().
 
 ## Usage
 ```javascript
