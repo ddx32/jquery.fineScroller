@@ -23,3 +23,8 @@ $('.item-container').fineScroller();
 ## Options
 * `cycleTime` : time in ms to do a full cycle. *default*: `1000`
 * `duplicates` : duplicates items meant to scroll. Use if scrolling leaves empty space. *default*: `0`
+
+## Install using Bower
+```
+bower install jquery.fineScroller --save-dev
+```
