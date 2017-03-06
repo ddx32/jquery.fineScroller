@@ -1,8 +1,8 @@
 # jquery.fineScroller
-Bare-bones size-independent infinite horizontal items scroller jQuery plugin. 
+Bare-bones size-independent infinite horizontal items scroller jQuery plugin.
 Optionally uses [jquery.transit](https://github.com/rstacruz/jquery.transit) library (if loaded) to provide smooth CSS animation if supported by browser. Falls back to jQuery.animate().
 
-* shit's lightweight
+* can't get any more lightweight than this
 * adapts to your html and styles
 * as minimal and unopinionated as it gets
 
@@ -26,7 +26,7 @@ $('.item-container').fineScroller();
 
 ## Options
 * `cycleTime` : time in ms to do a full cycle. *default*: `1000`
-* `duplicates` : duplicates items meant to scroll. Use if scrolling leaves empty space. *default*: `0`
+* `duplicates` : if the scrolling leaves empty space, add some item duplicates to fill up the container. *default*: `0`
 * `sliderItem` : override the default inner item selector of `'.item'`
 
 ## Install using Bower
