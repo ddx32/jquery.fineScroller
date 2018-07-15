@@ -19,7 +19,6 @@
 		function dupeItems(container, item) {
 			for (var i = 0; i < options.duplicates; i++) {
 				item.clone().appendTo(container);
-				console.log('duped');
 			}
 
 			return container.find($(options.sliderItem));
