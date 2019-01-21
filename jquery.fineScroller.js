@@ -26,8 +26,8 @@
 
 		/* Moves the first item in collection after the last, after it is out of view. */
 		function swapDiv(container) {
-			var first = container.find($(options.sliderItem . ':first-child'));
-			var last = container.find($(options.sliderItem . ':last-child'));
+			var first = container.find($(options.sliderItem + ':first-child'));
+			var last = container.find($(options.sliderItem + ':last-child'));
 			first.insertAfter(last);
 		}
 
@@ -62,12 +62,9 @@
 				container.transition({ 'left': -itemWidth }, o.cycleTime, 'linear', function() {
 					container.css('left', 0);
 					moveByOne();
-					console.log('triggered');
 					swapDiv(container);
 				});
 			}
-		
-			console.log(totalWidth);
 		});
 	}
 

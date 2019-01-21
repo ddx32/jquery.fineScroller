@@ -1,0 +1,25 @@
+{
+  "name": "jquery.finescroller",
+  "version": "0.9.0",
+  "description": "Bare-bones resolution-independent infinite horizontal items scroller. Uses jquery.transit for smooth CSS transitions.",
+  "main": "jquery.fineScroller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddx32/jquery.fineScroller.git"
+  },
+  "keywords": [
+    "jquery",
+    "scroller",
+    "carousel",
+    "infinite"
+  ],
+  "author": "Filip Ruzicka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddx32/jquery.fineScroller/issues"
+  },
+  "homepage": "https://github.com/ddx32/jquery.fineScroller#readme"
+}
