@@ -29,7 +29,7 @@ $('.item-container').fineScroller();
 * `duplicates` : if the scrolling leaves empty space, add some item duplicates to fill up the container. *default*: `0`
 * `sliderItem` : override the default inner item selector of `'.item'`
 
-## Install using Bower
+## Install using npm
 ```
-bower install jquery.fineScroller --save-dev
+npm i --save jquery.finescroller
 ```
